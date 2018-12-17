@@ -1,0 +1,543 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: mainFont;
+    src: url("Geomanist-Regular&Italic/Desktop/Geomanist-Regular.otf");
+}
+
+#container{
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -500px;
+    overflow: hidden;
+}
+
+#container > p{
+    font-family: 'mainFont', sans-serif;
+    font-size: 14px;
+    position: absolute;
+    z-index: 5;
+    transition: all .6s linear;
+}
+
+#container > #p1{
+    position: absolute;
+    top:-35px;
+    left: 130px;
+    transform: rotate(-2deg);
+}
+
+#container > #p2{
+    position: absolute;
+    top: -35px;
+    left: 265px;
+    transform: rotate(-2deg);
+}
+
+#container > #p3{
+    position: absolute;
+    top:-35px;
+    left: 177px;
+    transform: rotate(1.2deg);
+}
+
+#container > #p4{
+    position: absolute;
+    top:-35px;
+    left: 178px;
+    transform: rotate(1.2deg);
+}
+
+#container > #p5{
+    position: absolute;
+    top:-35px;
+    left: 174px;
+    transform: rotate(1.2deg);
+}
+
+#container > #p6{
+    position: absolute;
+    top:-55px;
+    left: 180px;
+    transform: rotate(0.5deg);
+}
+
+#container > #p7{
+    position: absolute;
+    top:-55px;
+    left: 172px;
+    transform: rotate(0.5deg);
+}
+
+#container > #p8{
+    position: absolute;
+    top:-45px;
+    left: 75px;
+    transform: rotate(3deg);
+}
+
+#container > #p9{
+    position: absolute;
+    top:-45px;
+    left: 262px;
+    transform: rotate(3deg);
+}
+
+#container > #p10{
+    position: absolute;
+    top:-43px;
+    left: 75px;
+    transform: rotate(2.8deg);
+}
+
+#container > #p11{
+    position: absolute;
+    top:-43px;
+    left: 296px;
+    transform: rotate(2.8deg);
+}
+
+#container > #p12{
+    position: absolute;
+    top:-135px;
+    left: 478px;
+    transform: rotate(-14deg);
+}
+
+#container > #p13{
+    position: absolute;
+    top:-135px;
+    left: 480px;
+    transform: rotate(-12deg);
+}
+
+#container > #p14{
+    position: absolute;
+    top:-105px;
+    left: 715px;
+    transform: rotate(13deg);
+}
+
+#container > #p15{
+    position: absolute;
+    top:-144px;
+    left: 720px;
+    transform: rotate(5deg);
+}
+
+#container > #p16{
+    position: absolute;
+    top:-217px;
+    left: 370px;
+    transform: rotate(-26deg);
+}
+
+#container > #p17{
+    position: absolute;
+    top:-217px;
+    left: 500px;
+    transform: rotate(-26deg);
+}
+
+#container > #p18{
+    position: absolute;
+    top:-140px;
+    left: 477px;
+}
+
+#container > #p19{
+    position: absolute;
+    top:-140px;
+    left: 735px;
+}
+
+#container > #p20{
+    position: absolute;
+    top:-140px;
+    left: 735px;
+}
+
+
+#container > #container-top{
+    width: 960px;
+    margin: auto;
+    height: 580px;
+    position: relative;
+    overflow: hidden;
+    margin-top: calc(69px/2);
+}
+
+#container > #container-top > #fallen-house{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #58585a;
+    visibility: visible;
+    opacity: 1;
+    z-index: 2;
+    transition: all .5s linear;
+    overflow: hidden;
+}
+
+#container > #container-top > #logo{
+    width: 768px;
+    height: 241.7px;
+    visibility: hidden;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    margin-top: -275px;
+    left: 50%;
+    margin-left: calc(-768px/2);
+    background: white;
+    opacity: 0;
+    transition: all 1.2s linear;
+}
+
+#container > #container-top > #logo img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    margin-top: calc(-241.7px/2);
+}
+
+#container > #container-bottom{
+    width: 1000px;
+    margin: auto;
+    height: 250px;
+    background: white;
+    opacity: 0;
+    transition: all .3s linear;
+    margin-top: -275px;
+}
+
+#container > #container-bottom > #header{
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+    text-align: center;
+}
+
+#container > #container-bottom > #header p{
+    font-family: 'mainFont', sans-serif;
+    font-size: 21px;
+}
+
+#container > #container-bottom > #boxes{
+    width: 100%;
+    height: calc(100% - 26px);
+    margin-top:15px;
+}
+
+#container > #container-bottom > #boxes > .words{
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    padding-bottom:0px;
+    display: flex;
+    opacity: 0;
+    transition: all .6s linear;
+}
+
+#container > #container-bottom > #boxes > .words > .txt{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    font-family: 'mainFont', sans-serif;
+    font-size: 19px;
+    line-height:48.5px;
+    color: #06b291;
+}
+
+#container > #container-top > #fallen-house > img{
+    transition: all .6s linear;
+}
+
+#container > #container-top > #fallen-house > #img1{
+    position: absolute;
+    left: 103px;
+    transform: translateY(-35px);
+    width: 345px;
+    height: 30px;
+}
+
+#container > #container-top > #fallen-house > #img2{
+    position: absolute;
+    left:48px;
+    transform: translateY(-195px);
+    width: 50px;
+    height: 190px;
+}
+
+
+#container > #container-top > #fallen-house > #img3{
+    position: absolute;
+    left: 451px;
+    transform: translateY(-60px);
+    width: 180px;
+    height: 55px;
+}
+
+#container > #container-top > #fallen-house > #img4{
+    position: absolute;
+    left: 634px;
+    transform: translateY(-44px);
+    width: 280px;
+    height: 39px;
+}
+
+#container > #container-top > #fallen-house > #img5{
+    position: absolute;
+    left: 48px;
+    transform: translateY(-43px);
+    width: 400px;
+    height: 38px;
+}
+
+#container > #container-top > #fallen-house > #img6{
+    position: absolute;
+    left: 433px;
+    transform: translateY(-145px);
+    width: 20px;
+    height: 140px;
+}
+
+#container > #container-top > #fallen-house > #img7{
+    position: absolute;
+    left: 118px;
+    transform: translateY(-168px);
+    width: 20px;
+    height: 163px;
+}
+
+#container > #container-top > #fallen-house > #img8{
+    position: absolute;
+    left: 288px;
+    transform: translateY(-156px);
+    width: 20px;
+    height: 151px;
+}
+
+#container > #container-top > #fallen-house > #img9{
+    position: absolute;
+    left: 137px;
+    transform: translateY(-55px);
+    width: 150px;
+    height: 50px;
+}
+
+#container > #container-top > #fallen-house > #img10{
+    position: absolute;
+    left: 137px;
+    transform: translateY(-35px);
+    width: 150px;
+    height: 30px;
+}
+
+#container > #container-top > #fallen-house > #img11{
+    position: absolute;
+    left: 138px;
+    transform: translateY(-35px);
+    width: 150px;
+    height: 30px;
+}
+
+#container > #container-top > #fallen-house > #img12{
+    position: absolute;
+    left: 138px;
+    transform: translateY(-35px);
+    width: 150px;
+    height: 30px;
+}
+
+#container > #container-top > #fallen-house > #img13{
+    position: absolute;
+    left: 48px;
+    transform: translateY(-45px);
+    width: 382px;
+    height: 40px;
+}
+
+#container > #container-top > #fallen-house > #img14{
+    position: absolute;
+    left: 361px;
+    transform: translateY(-80px);
+    width: 90px;
+    height: 75px;
+}
+
+#container > #container-top > #fallen-house > #img15{
+    position: absolute;
+    left: 314px;
+    transform: translateY(-35px);
+    width: 40px;
+    height: 30px;
+}
+
+#container > #container-top > #fallen-house > #img16{
+    position: absolute;
+    left: 208px;
+    transform: translateY(-40px) rotate(1deg);
+    width: 146px;
+    height: auto;
+}
+
+#container > #container-top > #fallen-house > #img17{
+    position: absolute;
+    left: 198px;
+    transform: translateY(-41px);
+    width: 10px;
+    height: 36px;
+}
+
+#container > #container-top > #fallen-house > #img18{
+    position: absolute;
+    left: 196px;
+    transform: translateY(-25px) rotate(-1deg);
+    width: 158px;
+    height: 20px;
+}
+
+#container > #container-top > #fallen-house > #img19{
+    position: absolute;
+    left: 181px;
+    transform: translateY(-27px) rotate(1deg);
+    width: 15px;
+    height: 22px;
+}
+
+#container > #container-top > #fallen-house > #img20{
+    position: absolute;
+    left: 178px;
+    transform: translateY(-18px) rotate(1deg);
+    width: 8px;
+    height: 13px;
+}
+
+#container > #container-top > #fallen-house > #img21{
+    position: absolute;
+    left: 178px;
+    transform: translateY(-35px);
+    width: 18px;
+    height: auto;
+}
+
+#container > #container-top > #fallen-house > #img22{
+    position: absolute;
+    left: 356px;
+    transform: translateY(-217px);
+    width: 278px;
+    height: auto;
+}
+
+#container > #container-top > #fallen-house > #img23{
+    position: absolute;
+    left: 888px;
+    transform: translateY(-173px);
+    width: 25px;
+    height: 168px;
+}
+
+#container > #container-top > #fallen-house > #img24{
+    position: absolute;
+    left: 449px;
+    transform: translateY(-55px);
+    width: 185px;
+    height: 50px;
+}
+
+#container > #container-top > #fallen-house > #img25{
+    position: absolute;
+    left: 449px;
+    transform: translateY(-135px);
+    width: 185px;
+    height: auto;
+}
+
+#container > #container-top > #fallen-house > #img26{
+    position: absolute;
+    left: 636px;
+    transform: translateY(-144px);
+    width: 276px;
+    height: 139px;
+}
+
+#container > #container-top > #fallen-house > #img27{
+    position: absolute;
+    left: 893px;
+    transform: translateY(-150px);
+    width: 20px;
+    height: 145px;
+}
+
+#container > #container-top > #fallen-house > #img28{
+    position: absolute;
+    left: 636px;
+    transform: translateY(-105px);
+    width: 276px;
+    height: 100px;
+}
+
+#container > #container-top > #fallen-house > #img29{
+    position: absolute;
+    left: 568px;
+    transform: translateY(-194px);
+    width: 20px;
+    height: 189px;
+}
+
+#container > #container-top > #fallen-house > #img30{
+    position: absolute;
+    left: 449px;
+    transform: translateY(-27px);
+    width: 118px;
+    height: auto;
+}
+
+#container > #container-top > #fallen-house > #img31{
+    position: absolute;
+    left: 453px;
+    transform: translateY(-140px);
+    width: 115px;
+    height: 135px;
+}
+
+#container > #container-top > #fallen-house > #img32{
+    position: absolute;
+    left: 588px;
+    transform: translateY(-40px);
+    width: 320px;
+    height: auto;
+}
+
+#container > #container-top > #fallen-house > #img33{
+    position: absolute;
+    left: 588px;
+    transform: translateY(-132px);
+    width: 80px;
+    height: 127px;
+}
+
+#container > #container-top > #fallen-house > #img34{
+    position: absolute;
+    left: 670px;
+    transform: translateY(-140px);
+    width: 225px;
+    height: 135px;
+}
+
+#container > #container-top > #fallen-house > #img35{
+    position: absolute;
+    left: 670px;
+    transform: translateY(-30px);
+    width: 15px;
+    height: 25px;
+}
+
+
